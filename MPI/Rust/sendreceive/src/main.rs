@@ -19,7 +19,7 @@ fn main() {
     }
     let x = world.process_at_rank(0).receive::<i32>();
     println!(
-        "Process {} received number {:?} from process 0\n",
+        "Process {} received number {:?} from process 0",
         rank, x.0
     );
 }

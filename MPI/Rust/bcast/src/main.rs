@@ -24,7 +24,7 @@ fn main() {
     }
     root_process.broadcast_into(&mut x);
     println!(
-        "Process {} received number {:?} from process 0\n",
+        "Process {} received number {:?} from process 0",
         rank, x
     );
 }
